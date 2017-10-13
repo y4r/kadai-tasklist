@@ -149,3 +149,4 @@
 [13-Oct-2017 12:14:24 Asia/Tokyo] PHP  47. call_user_func_array:{/home/ubuntu/workspace/task-list/vendor/laravel/framework/src/Illuminate/Routing/Controller.php:256}() /home/ubuntu/workspace/task-list/vendor/laravel/framework/src/Illuminate/Routing/Controller.php:256
 [13-Oct-2017 12:14:24 Asia/Tokyo] PHP  48. App\Http\Controllers\TasksController->index() /home/ubuntu/workspace/task-list/vendor/laravel/framework/src/Illuminate/Routing/Controller.php:256
 [13-Oct-2017 04:10:02 UTC] PHP Warning:  Unknown: php_network_getaddresses: getaddrinfo failed: Name or service not known in Unknown on line 0
+[13-Oct-2017 07:05:14 UTC] PHP Warning:  Unknown: php_network_getaddresses: getaddrinfo failed: Name or service not known in Unknown on line 0
