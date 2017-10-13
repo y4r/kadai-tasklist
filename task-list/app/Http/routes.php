@@ -10,6 +10,10 @@
 | and give it the controller to call when that URI is requested.
 |
 */
-
-Route::get('/','TasksController@index');
+Route::get('/', function () {
+    return view('welcome');
+});
+/*Route::get('/','TasksController@index');*/
 Route::resource('tasks', 'TasksController');
+Route::get('signup', 'Auth\AuthController@getRegister')->name('signup.get');
+Route::post('signup', 'Auth\AuthController@postRegister')->name('signup.post');
