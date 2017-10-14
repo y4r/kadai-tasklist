@@ -264,3 +264,16 @@
 [14-Oct-2017 08:22:04 Asia/Tokyo] PHP  53. Illuminate\View\View->getContents() /home/ubuntu/workspace/task-list/vendor/laravel/framework/src/Illuminate/View/View.php:118
 [14-Oct-2017 08:22:04 Asia/Tokyo] PHP  54. Illuminate\View\Engines\CompilerEngine->get() /home/ubuntu/workspace/task-list/vendor/laravel/framework/src/Illuminate/View/View.php:147
 [14-Oct-2017 08:22:04 Asia/Tokyo] PHP  55. Illuminate\View\Engines\PhpEngine->evaluatePath() /home/ubuntu/workspace/task-list/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php:58
+[14-Oct-2017 11:28:38 Asia/Tokyo] PHP Fatal error:  Class 'Thomaswelton\LaravelGravatar\LaravelGravatarServiceProvider' not found in /home/ubuntu/workspace/task-list/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php on line 146
+[14-Oct-2017 11:28:38 Asia/Tokyo] PHP Stack trace:
+[14-Oct-2017 11:28:38 Asia/Tokyo] PHP   1. {main}() /home/ubuntu/workspace/task-list/server.php:0
+[14-Oct-2017 11:28:38 Asia/Tokyo] PHP   2. require_once() /home/ubuntu/workspace/task-list/server.php:21
+[14-Oct-2017 11:28:38 Asia/Tokyo] PHP   3. Illuminate\Foundation\Http\Kernel->handle() /home/ubuntu/workspace/task-list/public/index.php:54
+[14-Oct-2017 11:28:38 Asia/Tokyo] PHP   4. Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter() /home/ubuntu/workspace/task-list/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:87
+[14-Oct-2017 11:28:38 Asia/Tokyo] PHP   5. Illuminate\Foundation\Http\Kernel->bootstrap() /home/ubuntu/workspace/task-list/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:117
+[14-Oct-2017 11:28:38 Asia/Tokyo] PHP   6. Illuminate\Foundation\Application->bootstrapWith() /home/ubuntu/workspace/task-list/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php:222
+[14-Oct-2017 11:28:38 Asia/Tokyo] PHP   7. Illuminate\Foundation\Bootstrap\RegisterProviders->bootstrap() /home/ubuntu/workspace/task-list/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:203
+[14-Oct-2017 11:28:38 Asia/Tokyo] PHP   8. Illuminate\Foundation\Application->registerConfiguredProviders() /home/ubuntu/workspace/task-list/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php:17
+[14-Oct-2017 11:28:38 Asia/Tokyo] PHP   9. Illuminate\Foundation\ProviderRepository->load() /home/ubuntu/workspace/task-list/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:507
+[14-Oct-2017 11:28:38 Asia/Tokyo] PHP  10. Illuminate\Foundation\ProviderRepository->compileManifest() /home/ubuntu/workspace/task-list/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:60
+[14-Oct-2017 11:28:38 Asia/Tokyo] PHP  11. Illuminate\Foundation\ProviderRepository->createProvider() /home/ubuntu/workspace/task-list/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php:114
